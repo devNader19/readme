@@ -1,35 +1,110 @@
-# Hi, I'm Nader Sayed 👋
+# Portfolio - Backend Developer
 
-A passionate Backend Developer with 20 years of experience building robust, scalable, and efficient server-side applications. I thrive on solving complex problems and optimizing system performance.
+A modern, responsive portfolio website for Node.js backend developers built with React.
 
----
+## Features
 
-### 🛠️ Technologies & Tools
+- ✨ Modern and beautiful UI design
+- 🌙 Dark mode and Light mode
+- 📱 Fully responsive design
+- 🚀 Multi-page navigation (Home, About, Skills, Projects, Services)
+- 🎨 Modern color scheme with gradients
+- ⚡ Fast and optimized with Vite
 
-**Languages:** Node.js (Express)
-**Databases:** PostgreSQL, MongoDB, MySql
-**Cloud:** AWS (EC2, Lambda, S3, RDS)
-**Containerization:** Docker, Kubernetes
-**APIs:** RESTful API design
-**Other:** Kafka, Git, CI/CD
+## Pages
 
----
+- **Home** - Landing page with hero section, stats, and featured skills
+- **About** - Personal information, experience, and education timeline
+- **Skills** - Detailed skill categories with progress bars
+- **Projects** - Showcase of backend projects with technologies used
+- **Services** - Services offered as a backend developer
 
-<!--
-# // ### Featured Projects
+## Getting Started
 
-*   **[Project Name 1]:** A brief description of the project, its purpose, and key backend technologies used. [Link to Repo]
-*   **[Project Name 2]:** Another project highlighting a different skill set or challenge. [Link to Repo]
+### Prerequisites
 
---- -->
+- Node.js (v16 or higher)
+- npm or yarn
 
-### 🌱 I'm Currently Learning
+### Installation
 
-Exploring advanced microservices architectures and delving deeper into serverless computing with AWS Lambda.
+1. Install dependencies:
+```bash
+npm install
+```
 
----
+2. Start the development server:
+```bash
+npm run dev
+```
 
-### /span> Let's Connect!
+3. Open your browser and navigate to `http://localhost:3000`
 
-- <a href="/sadasd">Linked Profile</a>
-- <a href='/'>Personal Website</a>
+### Build for Production
+
+```bash
+npm run build
+```
+
+The production-ready files will be in the `dist` folder.
+
+## Project Structure
+
+```
+├── src/
+│   ├── components/      # Reusable components (Navbar, Footer)
+│   ├── contexts/        # React contexts (ThemeContext)
+│   ├── pages/           # Page components
+│   ├── App.jsx          # Main app component
+│   ├── App.css          # Global app styles
+│   ├── main.jsx         # Entry point
+│   └── index.css        # Global styles and CSS variables
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## Customization
+
+### Update Personal Information
+
+Edit the following files to customize with your information:
+
+- `src/pages/Home.jsx` - Hero section and stats
+- `src/pages/About.jsx` - Personal information and experience
+- `src/pages/Skills.jsx` - Your skills and technologies
+- `src/pages/Projects.jsx` - Your projects
+- `src/pages/Services.jsx` - Services you offer
+- `src/components/Footer.jsx` - Social links and contact information
+
+### Change Colors
+
+Edit the CSS variables in `src/index.css`:
+
+```css
+:root {
+  --accent-primary: #6366f1;
+  --accent-secondary: #8b5cf6;
+  --accent-tertiary: #ec4899;
+  /* ... */
+}
+```
+
+### Theme Colors
+
+The theme system automatically switches between light and dark mode colors defined in `src/index.css`.
+
+## Technologies Used
+
+- React 18
+- React Router DOM
+- Vite
+- CSS3 with CSS Variables
+
+## License
+
+MIT License - feel free to use this portfolio for your own projects!
+
+## Contact
+
+For questions or suggestions, feel free to reach out!
